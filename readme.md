@@ -6,10 +6,10 @@ https://docs.microsoft.com/en-us/azure/developer/go/azure-sdk-authentication?tab
 az ad sp create-for-rbac --name "golang-spn" --role contributor --scopes /subscriptions/2a04288a-8136-4880-b526-c6070e59f004 --sdk-auth
 
 {
-  "clientId": "32f1ad4e-d42d-4ecf-aa48-f2ce06ab2019",
-  "clientSecret": "l2vTvd1u4eZjoaSV1.qj.u_K9WJuLuwSwz",
-  "subscriptionId": "2a04288a-8136-4880-b526-c6070e59f004",
-  "tenantId": "37d20c78-05e3-416d-83ab-cdbc21fed22a",
+  "clientId": "<clientId>",
+  "clientSecret": "<clientSecret>",
+  "subscriptionId": "<subscriptionId>",
+  "tenantId": "<active_directory_tenant_id",
   "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
   "resourceManagerEndpointUrl": "https://management.azure.com/",
   "activeDirectoryGraphResourceId": "https://graph.windows.net/",
